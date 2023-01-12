@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(213, 213, 192, 0.734);
+}
+h1{ 
+    text-align: center;
+    color: blue;
+
+}
+p{
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+
