@@ -9,13 +9,13 @@ body{
 .principal{
 
     background-color: aliceblue;
+    padding: 15px;
 }
 
 h1{ 
     text-align: center;
     color: blue;
     height:  50px;
-
 }
 p{
     text-align: center;
@@ -32,6 +32,12 @@ em strong {
 .diferenciales{ 
 
     background-color: white;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    
 }
 
 .items{
@@ -39,4 +45,15 @@ em strong {
     font-style: italic;
     font-size: 25px;
 
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }
