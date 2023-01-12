@@ -1,9 +1,20 @@
 body{
     background-color: rgba(213, 213, 192, 0.734);
 }
+
+#banner{ 
+    width: 100%;
+}
+
+.principal{
+
+    background-color: aliceblue;
+}
+
 h1{ 
     text-align: center;
     color: blue;
+    height:  50px;
 
 }
 p{
@@ -14,4 +25,18 @@ em strong {
     color: red;
 }
 
+#mision{
+    font-size: 20px;
+}
 
+.diferenciales{ 
+
+    background-color: white;
+}
+
+.items{
+    white-space: 2px;
+    font-style: italic;
+    font-size: 25px;
+
+}
