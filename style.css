@@ -130,10 +130,30 @@ form label, form legend{
     background-color: rgb(168, 129, 56);
     border: none;
     border-radius: 8px;
-    transition: .5s background;
+    transition: .5s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background-color: darkorange;
+    transform: scale(1.15);
+}
+
+table{
+
+    margin: 40px 40px;
+
+}
+
+thead{
+    background: #1e1e1e;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
 }
