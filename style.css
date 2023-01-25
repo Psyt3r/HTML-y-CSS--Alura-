@@ -1,4 +1,6 @@
-body{font-family: 'Aboreto', cursive;}
+body{font-family: 'Raleway', sans-serif;
+    
+}
 
 header{
     background-color: #BBBBBB;
@@ -257,3 +259,19 @@ td, th{
     margin: 1em auto;
 }
 
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
